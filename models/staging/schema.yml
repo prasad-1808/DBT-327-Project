@@ -1,0 +1,16 @@
+version: 2
+
+models:
+  - name: stg_store_data
+    description: "Initialize store data"
+    columns:
+      - name: store_id
+        description: "identify unique stores"
+        data_tests:
+          - unique
+          - not_null
+      - name: store_type
+        description: "Describe how the store is operated."
+        tests:
+          - accepted_values:
+              values: ["Online", "Physical"]

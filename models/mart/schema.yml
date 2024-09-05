@@ -1,0 +1,12 @@
+version: 2
+
+models:
+  - name: mt_customer_data
+    description: "Calculated using stg_source by refering"
+    columns:
+      - name: customer_id
+        description: "identify unique customer"
+        data_tests:
+          - unique
+          - not_null
+      

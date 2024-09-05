@@ -1,0 +1,27 @@
+version: 2
+
+sources:
+  - name: data_source
+    database: WEB_ASSESSMENT
+    schema: DATA
+    tables:
+      - name: CUSTOMERS
+        description: This is customers table Initialization.
+      - name: EMPLOYEES
+        description: This is employees table Initialization.
+      - name: ORDER_LINE_ITEMS
+        description: This is order_line_items table Initialization.
+      - name: ORDERS
+        description: This is orders table Initialization.
+      - name: PRICING
+        description: This is pricing table Initialization.
+      - name: PRODUCTS
+        description: This is products table Initialization.
+      - name: PROMOTIONS
+        description: This is promotions table Initialization.
+      - name: RETURNS
+        description: This is returns table Initialization.
+      - name: STORES
+        description: This is stores table Initialization.
+      - name: SUPPLIERS
+        description: This is suppliers table Initialization.

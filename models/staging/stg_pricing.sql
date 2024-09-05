@@ -1,0 +1,1 @@
+select * from {{ source('data_source','PRICING') }}
